@@ -1,0 +1,90 @@
+/* red-hat-display-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/red-hat-display-v21-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* red-hat-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/red-hat-display-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* red-hat-display-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/red-hat-display-v21-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --primary-blue-100: hsl(225, 100%, 94%);
+  --primary-blue-700: hsl(245, 75%, 52%);
+  --neutral-blue-50: hsl(225, 100%, 98%);
+  --neutral-gray-600:hsl(224, 23%, 55%);
+  --neutral-blue-950:hsl(223, 47%, 23%);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-blue-100);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.order-card-container {
+  background-color: var(--neutral-blue-50);
+  height: 565px;
+  width: 328px;
+  border-radius: 20px;
+}
+.order-card-container .image-container {
+  background-image: url(images/illustration-hero.svg);
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.order-card-container .content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+}
+.order-card-container .content-container .content {
+  text-align: center;
+}
+.order-card-container .content-container .content .content-title {
+  font-weight: 900;
+}/*# sourceMappingURL=styles.css.map */
