@@ -94,6 +94,7 @@ body {
   margin-bottom: 25px;
 }
 .order-card-container .content-container .content .content-title {
+  color: var(--neutral-blue-950);
   font-weight: 900;
   margin-bottom: 15px;
 }
@@ -115,6 +116,7 @@ body {
   margin-left: 15px;
 }
 .order-card-container .subscription-plan-container .subscription-title {
+  color: var(--neutral-blue-950);
   font-weight: 900;
   font-size: clamp(0.9rem, 0.508vw + 0.797rem, 1rem);
 }
