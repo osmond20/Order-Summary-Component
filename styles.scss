@@ -78,6 +78,8 @@ body{
   height: 565px;
   width: 328px;
   border-radius: 20px;
+  // bottom shadow of card
+  box-shadow: 0 2px 15px -5px var(--neutral-blue-950);
 
   // IMAGE
   .image-container{

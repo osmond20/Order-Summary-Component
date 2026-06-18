@@ -73,6 +73,7 @@ body {
   height: 565px;
   width: 328px;
   border-radius: 20px;
+  box-shadow: 0 2px 15px -5px var(--neutral-blue-950);
 }
 .order-card-container .image-container {
   background-image: url(images/illustration-hero.svg);
