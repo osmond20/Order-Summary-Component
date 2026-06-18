@@ -31,6 +31,7 @@
     --neutral-gray-600:hsl(224, 23%, 55%);
     --neutral-blue-950:hsl(223, 47%, 23%);
     --white:white;
+    --black: #111;
     --font-size: 1rem;
 }
 
@@ -197,7 +198,7 @@ body{
 
   // FOCUS STATES
   .change-subscription-link:focus, .proceed-to-pay-button:focus, .cancel-order-link:focus{
-    outline: 1px solid #111;
+    outline: 1px solid var(--black);
     outline-offset: .25rem;
   }
 }
